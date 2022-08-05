@@ -5,56 +5,52 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Template Project</title>
   <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
   <link rel="stylesheet" href="./css/main.css">
   <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 
-<body>
+<body translate="no">
   <!-- Start Header Section -->
   <header class="site-header">
-<div class="container">
-  <div class="site-header__wrapper">
-  <div class="site-header__logo">
-    <img class="site-header__img"
-    width="120"
-    height="32"
-    src="./images/logo.svg" alt="site-header__logo">
-  </div>
-  <div class="site-header__btn">
+    <div class="container">
+      <div class="site-header__wrapper">
+        <div class="site-header__logo">
+          <img class="site-header__img" width="120" height="32" src="./images/logo.svg" alt="site-header__logo">
+        </div>
+        <div class="site-header__btn">
 
+        </div>
+        <div class="site-header__lists">
+          <nav class="site-header__navbar">
+            <ul class="site-header__list">
+              <li class="site-header__item">
+                <a href="#" class="site-header__link">Features</a>
+              </li>
+              <li class="site-header__item">
+                <a href="#" class="site-header__link">Pricing</a>
+              </li>
+              <li class="site-header__item">
+                <a href="#" class="site-header__link">Resources</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="site-header__login">
+            <li class="site-header__login-item">
+              <a href="#" class="site-header__login-link">Login</a>
+            </li>
+            <li class="site-header__login-list">
+              <a href="#" class="site-header__login-link active-link">Sign Up</a>
+            </li>
 
-
-
-
-  </div>
- <div class="site-header__lists">
-  <nav class="site-header__navbar">
-    <ul class="site-header__list">
-      <li class="site-header__item">
-        <a href="#" class="site-header__link">Features</a>
-      </li>
-      <li class="site-header__item">
-        <a href="#" class="site-header__link">Pricing</a>
-      </li>
-      <li class="site-header__item">
-        <a href="#" class="site-header__link">Resources</a>
-      </li>
-    </ul>
-  </nav>
-  <ul class="site-header__login">
-    <li class="site-header__login-item">
-      <a href="#" class="site-header__login-link">Login</a>
-    </li>
-    <li class="site-header__login-list">
-      <a href="#" class="site-header__login-link active-link">Sign Up</a>
-    </li>
-   
-  </ul>
- </div>
-</div>
-</div>
+          </ul>
+        </div>
+      </div>
+    </div>
   </header>
   <!-- End of Header Section -->
 
@@ -70,17 +66,15 @@
               More than just shorter links
             </h1>
             <p class="hero__text">
-              Build your brand’s recognition and get detailed <br class="herobr"> insights on how your links are performing.
+              Build your brand’s recognition and get detailed <br class="herobr"> insights on how your links are
+              performing.
             </p>
             <a href="#" class="hero__link">
               Get Started
             </a>
           </div>
           <div class="hero__img">
-            <img class="hero__images" 
-            width="658"
-            height="482"
-            src="/images/Path.png" alt="hero img">
+            <img class="hero__images" width="658" height="482" src="/images/Path.png" alt="hero img">
           </div>
         </div>
       </div>
@@ -89,38 +83,186 @@
 
     <!-- Start id section -->
 
-<section class="id">
-  <div class="container">
-    <div class="id__wrapper">
-      <form class="id__form" action="https://echo.htmlacademy.ru/courses" method="post">
-        <div class="id__input-wrap">
-          <label>
-            <input class="id__input" name="Shorten" aria-label="Shorten a link here..." type="url" placeholder="Shorten a link here..." autocomplete="off" minlength="4" required>
-            <span class="id__error">Please add a link</span>
-          </label>
+    <section class="id">
+      <div class="container">
+        <div class="id__wrapper">
+          <form class="id__form" action="https://echo.htmlacademy.ru/courses" method="post">
+            <div class="id__input-wrap">
+              <label>
+                <input class="id__input" name="Shorten" aria-label="Shorten a link here..." type="url"
+                  placeholder="Shorten a link here..." autocomplete="off" minlength="4" required>
+                <span class="id__error">Please add a link</span>
+              </label>
+            </div>
+            <!-- <br class="id__br"> -->
+            <div class="id__btn">
+              <button class="id__button" type="submit">Shorten It!</button>
+            </div>
+          </form>
         </div>
-        <!-- <br class="id__br"> -->
-        <div class="id__btn">
-          <button class="id__button" type="submit">Shorten It!</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
+      </div>
+    </section>
 
     <!-- End id section -->
 
+    <section class="static">
+      <div class="container">
+        <div class="static__advan">
+          <h2 class="static__advan-title">
+            Advanced Statistics
+          </h2>
+          <p class="static__advan-text">
+            Track how your links are performing across the web with our advanced <br class="static__br"> statistics
+            dashboard.
+          </p>
+        </div>
+        <ul class="static__list">
+
+          <li class="static__item">
+            <div class="static__item-wrapper">
+              <h3 class="static__title">
+                Brand Recognition
+              </h3>
+              <p class="static__text">
+                Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help
+                instil confidence in your content.
+              </p>
+            </div>
+          </li>
+
+
+          <li class="static__item">
+            <div class="static__item-wrapper">
+              <h3 class="static__title">
+                Detailed Records
+              </h3>
+              <p class="static__text">
+                Gain insights into who is clicking your links. Knowing when and where people engage with your content
+                helps inform better decisions.
+              </p>
+            </div>
+          </li>
+
+
+          <li class="static__item">
+            <div class="static__item-wrapper">
+              <h3 class="static__title">
+                Fully Customizable
+              </h3>
+              <p class="static__text">
+                Improve brand awareness and content discoverability through customizable links, supercharging audience
+                engagement.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <article class="boost">
+      <div class="container">
+        <div class="boost__wrapper">
+          <h2 class="boost__title">
+            Boost your links today
+          </h2>
+          <a href="#" class="boost__link">Get Started</a>
+        </div>
+      </div>
+    </article>
   </main>
 
   <!-- End of Main Section -->
 
   <!-- Start Footer Section -->
-  <footer id="site-footer">
+  <footer class="site-footer">
+    <div class="footer-box">
+      <div class="container">
+        <div class="footer-box__wrapper">
+          <a class="footer-box__href" href="#">
+            <img class="footer-box__img" src="./images/Shortly.svg" width="120" height="32" alt="footer logo">
+          </a>
+          <div class="footer-box__list-wrap">
+            <div class="footer-box__one">
+              <strong class="footer-box__strong">
+                Features
+              </strong>
+              <ul class="footer-box__list">
 
+                <li class="footer-box__item">
+                  <a class="footer-box__link" href="#">Link Shortening</a>
+                </li>
+
+                <li class="footer-box__item">
+                  <a class="footer-box__link" href="#">Branded Links</a>
+                </li>
+
+                <li class="footer-box__item">
+                  <a class="footer-box__link" href="#">Analytics</a>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="footer-box__one">
+              <strong class="footer-box__strong">
+                Resources
+              </strong>
+              <ul class="footer-box__list">
+                <li class="footer-box__item">
+                  <a class="footer-box__link" href="#">Blog</a>
+                </li>
+
+                <li class="footer-box__item">
+                  <a class="footer-box__link" href="#">Developers</a>
+                </li>
+
+                <li class="footer-box__item">
+                  <a class="footer-box__link" href="#">Support</a>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="footer-box__one">
+              <ul class="footer-box__list">
+                <strong class="footer-box__strong">
+                  Company
+                </strong>
+
+                <li class="footer-box__item">
+                  <a class="footer-box__link" href="#">About</a>
+                </li>
+
+                <li class="footer-box__item">
+                  <a class="footer-box__link" href="#">Our Team</a>
+                </li>
+
+                <li class="footer-box__item">
+                  <a class="footer-box__link" href="#">Careers</a>
+                </li>
+
+                <li class="footer-box__item">
+                  <a class="footer-box__link" href="#">Contact</a>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="footer-box__icon">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-pinterest"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
   <!-- End of Footer Section-->
 
   <script src="/js/main.js"></script>
 </body>
-  
+
 </html>
