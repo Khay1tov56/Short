@@ -133,7 +133,7 @@ a {
     align-items: center;
     width: 100%;
 }
-
+ 
 .site-header__item {
     margin-right: 30px;
 }
@@ -655,11 +655,14 @@ input:not(:placeholder-shown):not(:focus):invalid+.id__error {
 @media only screen and (min-width:720px) {
 
     .id__wrapper {
+        display: inline-block;
         margin: 0 auto;
+        padding: 52px 64px 25px;
         width: 100%;
         max-width: 700px;
         top: -70px;
     }
+
 
     .id__form {
         display: flex;
@@ -1219,6 +1222,10 @@ margin-top: 16px;
     }
 
     .fab:hover {
+        color: #2BD0D0;
+    }
+
+    .fab-hover:hover {
         color: #2BD0D0;
     }
 
